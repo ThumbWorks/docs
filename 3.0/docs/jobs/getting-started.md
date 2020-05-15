@@ -43,7 +43,7 @@ let package = Package(
     name: "MyApp",
     dependencies: [
         /// Any other dependencies ...
-        .package(url: "https://github.com/vapor-community/jobs-redis-driver.git", from: "1.0.0"),
+        .package(url: "https://github.com/vapor-community/jobs-redis-driver.git", from: "0.2.7"),
     ],
     targets: [
         .target(name: "App", dependencies: ["JobsRedisDriver", ...]),
